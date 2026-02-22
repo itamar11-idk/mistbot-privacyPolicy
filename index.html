@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mistbot</title>
+    <!-- Tailwind CSS with Typography Plugin for professional document styling -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            900: '#1e3a8a',
+                            950: '#172554',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* slate-900 */
+            color: #cbd5e1; /* slate-300 */
+        }
+
+        /* Custom styling for the typography plugin to fit the dark theme perfectly */
+        .prose {
+            --tw-prose-body: #94a3b8;
+            --tw-prose-headings: #f8fafc;
+            --tw-prose-links: #60a5fa;
+            --tw-prose-bold: #f1f5f9;
+            --tw-prose-counters: #475569;
+            --tw-prose-bullets: #475569;
+            --tw-prose-hr: #334155;
+            --tw-prose-quotes: #e2e8f0;
+            --tw-prose-quote-borders: #3b82f6;
+            --tw-prose-captions: #64748b;
+            --tw-prose-code: #e2e8f0;
+            --tw-prose-pre-code: #e2e8f0;
+            --tw-prose-pre-bg: #1e293b;
+            --tw-prose-th-borders: #334155;
+            --tw-prose-td-borders: #1e293b;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-500 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 w-full backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <span class="font-semibold text-white text-lg tracking-wide">Mistbot</span>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Home</a>
+                    <a href="https://discord.gg/tgzEMgBbYW" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-brand-400 hover:text-brand-300 transition-colors">Support Server</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row gap-12 w-full">
+        
+        <!-- Sidebar Navigation (Table of Contents) -->
+        <aside class="hidden md:block w-64 shrink-0 relative">
+            <div class="sticky top-28 space-y-1 pr-4 border-r border-slate-800">
+                <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4">Contents</h3>
+                <a href="#introduction" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">1. Introduction</a>
+                <a href="#information-collected" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">2. Information We Collect</a>
+                <a href="#how-we-use" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">3. How We Use Your Information</a>
+                <a href="#third-party" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">4. Third-Party Services</a>
+                <a href="#storage-security" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">5. Data Storage & Security</a>
+                <a href="#data-retention" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">6. Data Retention</a>
+                <a href="#global-features" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">7. Global Features</a>
+                <a href="#your-rights" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">8. Your Rights & Contact</a>
+            </div>
+        </aside>
+
+        <!-- Document Content -->
+        <article class="prose prose-invert max-w-3xl w-full">
+            <header class="mb-10 pb-10 border-b border-slate-800">
+                <h1 class="text-4xl font-bold tracking-tight text-white mb-4">Privacy Policy</h1>
+                <p class="text-sm text-slate-400"><strong>Effective Date:</strong> February 22, 2026</p>
+            </header>
+
+            <section id="introduction" class="scroll-mt-28">
+                <h2>1. Introduction</h2>
+                <p>Mistbot is a community management and utility platform designed for the <em>Attack on Titan: Revolution</em> (Roblox) community on Discord. This Privacy Policy outlines our practices regarding the collection, usage, and protection of your data when interacting with Mistbot to utilize our marketplace, vouching, and safety features.</p>
+                <p>By inviting, interacting with, or otherwise utilizing Mistbot, you consent to the data practices described in this document.</p>
+            </section>
+
+            <section id="information-collected" class="scroll-mt-28 mt-12">
+                <h2>2. Information We Collect</h2>
+                
+                <h3>2.1 Information You Provide Directly</h3>
+                <ul>
+                    <li><strong>Vouching & Reputation:</strong> Discord User IDs, usernames of relevant participants, carry types, and recorded success metrics.</li>
+                    <li><strong>Marketplace Listings:</strong> The content of trade listings, item inventories, and your associated Discord User ID.</li>
+                    <li><strong>Safety Reports:</strong> Evidence, context, and account details submitted during the scam reporting or blacklist appeal process.</li>
+                    <li><strong>Lobby Details:</strong> Temporary information regarding game lobbies you choose to host or join.</li>
+                    <li><strong>Assistant Interactions:</strong> Queries or direct commands sent to the integrated AI features.</li>
+                </ul>
+
+                <h3>2.2 Information Collected Automatically</h3>
+                <ul>
+                    <li><strong>Platform Identifiers:</strong> Your Discord User ID, current username, and avatar URL to facilitate user profiles and leaderboards.</li>
+                    <li><strong>Automated Trade Processing:</strong> Within server-designated trade channels, message content is programmatically processed by our automated systems to categorize and syndicate marketplace listings.</li>
+                    <li><strong>Contextual & Diagnostic Data:</strong> Discord Server (Guild) IDs to isolate configuration environments, as well as operational logs (such as timestamps and execution errors) to maintain platform stability.</li>
+                </ul>
+
+                <h3>2.3 Information NOT Collected</h3>
+                <p>Mistbot operates on a principle of minimal data collection. Specifically, we <strong>do not</strong>:</p>
+                <ul>
+                    <li>Collect, process, or store passwords, login credentials, or payment information.</li>
+                    <li>Monitor, read, or process messages outside of designated bot-interaction or explicitly configured trade channels.</li>
+                </ul>
+            </section>
+
+            <section id="how-we-use" class="scroll-mt-28 mt-12">
+                <h2>3. How We Use Your Information</h2>
+                <p>The data we collect is utilized strictly to provide and improve the services offered by Mistbot, including but not limited to:</p>
+                <ul>
+                    <li>Maintaining accurate global leaderboards and carrier verification systems.</li>
+                    <li>Facilitating an interconnected, cross-server marketplace for users.</li>
+                    <li>Providing automated game assistance, real-time trade categorization, and utility commands.</li>
+                    <li>Enforcing community safety standards through a centralized, moderated blacklist.</li>
+                </ul>
+            </section>
+
+            <section id="third-party" class="scroll-mt-28 mt-12">
+                <h2>4. Third-Party Services</h2>
+                <p>To function effectively and reliably, Mistbot integrates with industry-standard third-party infrastructure. Data is only transmitted to the extent strictly necessary for the bot's features to operate:</p>
+
+                <div class="overflow-x-auto my-8">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-slate-800/50">
+                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Service Category</th>
+                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Operational Purpose</th>
+                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Data Transmitted</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm">
+                            <tr class="border-b border-slate-800/50">
+                                <td class="p-4 font-medium text-slate-300">Discord</td>
+                                <td class="p-4 text-slate-400">Core Platform Interface</td>
+                                <td class="p-4 text-slate-400">Interactions, User IDs, Guild IDs, specific messages.</td>
+                            </tr>
+                            <tr class="border-b border-slate-800/50 bg-slate-800/20">
+                                <td class="p-4 font-medium text-slate-300">Secure Database Providers</td>
+                                <td class="p-4 text-slate-400">Persistent Data Storage</td>
+                                <td class="p-4 text-slate-400">Stored user statistics, active listings, and global blacklist data.</td>
+                            </tr>
+                            <tr class="border-b border-slate-800/50">
+                                <td class="p-4 font-medium text-slate-300">AI Processing Infrastructure</td>
+                                <td class="p-4 text-slate-400">Natural Language Parsing</td>
+                                <td class="p-4 text-slate-400">User queries and content submitted in designated trade channels.</td>
+                            </tr>
+                            <tr class="border-b border-slate-800/50 bg-slate-800/20">
+                                <td class="p-4 font-medium text-slate-300">Media Integration Services</td>
+                                <td class="p-4 text-slate-400">Search Functionality</td>
+                                <td class="p-4 text-slate-400">Anonymized search terms (e.g., keyword queries for media/GIFs).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="bg-brand-950/30 border border-brand-900 rounded-lg p-5 mt-6">
+                    <p class="text-brand-100 text-sm m-0">
+                        <strong>Important Notice:</strong> By utilizing AI-powered commands or posting within designated automated trade channels, your message content is processed by our secure AI infrastructure partners in real-time to generate categorizations and responses.
+                    </p>
+                </div>
+            </section>
+
+            <section id="storage-security" class="scroll-mt-28 mt-12">
+                <h2>5. Data Storage & Security</h2>
+                <ul>
+                    <li><strong>Storage Framework:</strong> Persistent data is housed in secure, authenticated database environments.</li>
+                    <li><strong>Configuration Isolation:</strong> Server-specific configurations are stored in isolated file structures to prevent cross-contamination.</li>
+                    <li><strong>Security Posture:</strong> We employ industry-standard encryption and secure token authentication protocols to protect data in transit and at rest. <strong>We do not, and will never, sell your personal data.</strong></li>
+                </ul>
+            </section>
+
+            <section id="data-retention" class="scroll-mt-28 mt-12">
+                <h2>6. Data Retention Policies</h2>
+                <p>We retain data only as long as necessary to fulfill the operational purposes described above:</p>
+                <ul>
+                    <li><strong>Vouches & Blacklist:</strong> Retained indefinitely to maintain the long-term integrity of the community, unless explicitly removed via an official staff appeal.</li>
+                    <li><strong>Marketplace Dynamics:</strong> Trade listings are automatically expunged from our active database following 6 hours of inactivity.</li>
+                    <li><strong>Transient Systems:</strong> Temporary data, such as lobby configurations and caching layers, are wiped immediately upon expiration or system cycle.</li>
+                    <li><strong>AI Interactions:</strong> Query processing occurs in real-time; we do not maintain a permanent, linked database of your specific natural language queries.</li>
+                </ul>
+            </section>
+
+            <section id="global-features" class="scroll-mt-28 mt-12">
+                <h2>7. Global Network Features</h2>
+                <p>Mistbot operates certain features on a cross-server (global) basis to maximize utility for the community:</p>
+                <ul>
+                    <li><strong>Global Marketplace:</strong> Submitted trade listings may be broadcast to all external Discord servers subscribed to the Mistbot network.</li>
+                    <li><strong>Global Safety Standards:</strong> Blacklist status applied to an offending user is enforced globally across all participating Mistbot servers to protect the wider ecosystem.</li>
+                    <li><strong>Public Safety Alerts:</strong> Fully verified scam reports and relevant evidence may be distributed to community staff and public warning channels.</li>
+                </ul>
+            </section>
+
+            <section id="your-rights" class="scroll-mt-28 mt-12">
+                <h2>8. Your Rights & Contact</h2>
+                <p>Under standard digital privacy principles, you maintain the right to understand and manage your data footprint within Mistbot. You may request to:</p>
+                <ul>
+                    <li>View the programmatic data we currently have stored associated with your Discord ID.</li>
+                    <li>Request the deletion or resetting of specific data (such as clearing your vouch history or terminating active marketplace listings).</li>
+                    <li>Opt-out of automated processing by refraining from using designated trade channels or commands.</li>
+                </ul>
+                <p>For formal data requests, policy inquiries, or technical support, please join our Support Server and contact the development administration team directly.</p>
+                
+                <div class="mt-8">
+                    <a href="https://discord.gg/tgzEMgBbYW" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-600 hover:bg-brand-500 transition-colors shadow-sm">
+                        Join Support Server
+                    </a>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+            <div class="flex items-center gap-2 mb-4 md:mb-0">
+                <span class="text-slate-400 text-sm">© 2026 Mistbot. All rights reserved.</span>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="text-slate-500 hover:text-slate-300 text-sm transition-colors">Terms of Service</a>
+                <a href="https://discord.gg/tgzEMgBbYW" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-slate-300 text-sm transition-colors">Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
