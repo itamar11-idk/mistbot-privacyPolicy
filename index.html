@@ -1,315 +1,320 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Mistbot</title>
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                    colors: {
-                        brand: {
-                            50: '#eff6ff',
-                            100: '#dbeafe',
-                            400: '#60a5fa',
-                            500: '#3b82f6',
-                            600: '#2563eb',
-                            900: '#1e3a8a',
-                            950: '#172554',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <title>MistBot Privacy Policy</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0f172a; /* slate-900 */
-            color: #cbd5e1; /* slate-300 */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #334155;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 40px 20px;
         }
-
-        .prose {
-            --tw-prose-body: #94a3b8;
-            --tw-prose-headings: #f8fafc;
-            --tw-prose-links: #60a5fa;
-            --tw-prose-bold: #f1f5f9;
-            --tw-prose-counters: #475569;
-            --tw-prose-bullets: #475569;
-            --tw-prose-hr: #334155;
-            --tw-prose-quotes: #e2e8f0;
-            --tw-prose-quote-borders: #3b82f6;
-            --tw-prose-captions: #64748b;
-            --tw-prose-code: #e2e8f0;
-            --tw-prose-pre-code: #e2e8f0;
-            --tw-prose-pre-bg: #1e293b;
-            --tw-prose-th-borders: #334155;
-            --tw-prose-td-borders: #1e293b;
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
         }
-
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
+        header {
+            border-bottom: 3px solid #0f172a;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
         }
-        ::-webkit-scrollbar-track {
-            background: #0f172a;
+        h1 {
+            color: #0f172a;
+            font-size: 28px;
+            margin: 0 0 10px 0;
+            font-weight: 800;
+            letter-spacing: -0.025em;
         }
-        ::-webkit-scrollbar-thumb {
-            background: #334155;
+        .metadata {
+            font-size: 14px;
+            color: #64748b;
+            font-weight: 500;
+        }
+        h2 {
+            color: #1e3a8a;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 700;
+        }
+        h3 {
+            color: #2563eb;
+            font-size: 16px;
+            margin-top: 22px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: #475569;
+            text-align: justify;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #475569;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 14px;
+        }
+        th {
+            background-color: #f1f5f9;
+            color: #0f172a;
+            text-align: left;
+            padding: 12px 14px;
+            border: 1px solid #cbd5e1;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px 14px;
+            border: 1px solid #e2e8f0;
+            vertical-align: top;
+            color: #475569;
+        }
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+        a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+        .callout-box {
+            background-color: #fffbeb;
+            border-left: 4px solid #d97706;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .callout-box p {
+            color: #78350f;
+            margin-bottom: 0;
+        }
+        .callout-box h4 {
+            margin: 0 0 8px 0;
+            color: #92400e;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .footer-note {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 13px;
+            color: #94a3b8;
+            text-align: center;
+        }
+        code {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            background-color: #f1f5f9;
+            padding: 2px 6px;
             border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #475569;
+            font-size: 13px;
+            color: #0f172a;
         }
     </style>
 </head>
-<body class="antialiased selection:bg-brand-500 selection:text-white flex flex-col min-h-screen">
+<body>
 
-    <nav class="sticky top-0 z-50 w-full backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <div class="flex items-center gap-3">
-                    <span class="font-semibold text-white text-lg tracking-wide">Mistbot</span>
-                </div>
-                <div class="flex space-x-4">
-                    <a href="#" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Home</a>
-                    <a href="https://discord.gg/tgzEMgBbYW" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-brand-400 hover:text-brand-300 transition-colors">Support Server</a>
-                </div>
-            </div>
+<div class="container">
+    <header>
+        <h1>MistBot Privacy Policy</h1>
+        <div class="metadata">Last Updated: June 14, 2026</div>
+    </header>
+
+    <main>
+        <h2>1. Scope</h2>
+        <p>This Privacy Policy applies to MistBot's Discord bot features only.</p>
+        <p>MistBot is a community tool for <em>Attack on Titan: Revolution</em> players. This policy explains what data MistBot processes through Discord, how it is used, when it is shared, and how you can request access, correction, or deletion.</p>
+
+        <h2>2. Data We Process</h2>
+        
+        <h3>2.1 Data You Provide Through Commands or Messages</h3>
+        <ul>
+            <li><strong>Vouch data:</strong> vouch submissions, carrier identity, vouch type, totals, and related metadata.</li>
+            <li><strong>Marketplace data:</strong> listing text (giving/looking for), optional notes, your Discord user ID, Discord username, and listing status. Listings are also broadcast to all servers subscribed to the global marketplace feed via Discord webhooks.</li>
+            <li><strong>Safety data:</strong> scam reports, blacklist appeals, descriptions, and evidence attachments you submit.</li>
+            <li><strong>Lobby data:</strong> lobby settings, participant lists (Discord user IDs), host information, and temporary private server codes if you post them.</li>
+            <li><strong>Prefix and slash commands:</strong> all commands you issue (both <code>,command</code> style and <code>/command</code> style) are processed, and basic metadata (command name, user ID, guild ID, timestamp) is logged for operational purposes.</li>
+        </ul>
+
+        <h3>2.2 Data From Discord APIs or Bot Events</h3>
+        <ul>
+            <li><strong>Account identifiers:</strong> Discord user ID, username/display name, and avatar URL.</li>
+            <li><strong>Server context:</strong> guild/server IDs, channel IDs, role IDs, and configuration needed for per-server behavior.</li>
+            <li><strong>Message content in configured trade channels:</strong> Mist-Connect scans trade-channel messages to detect trade intent. This content is sent to Groq's AI API for parsing. Detected trade offers are stored as ghost listings.</li>
+            <li><strong>Message content in lobby private channels:</strong> the lobby system reads messages in private lobby channels to detect "code" or "password" queries so it can automatically share the server join code.</li>
+            <li><strong>Message content for promotion-reminder completion:</strong> in servers with promotion reminders enabled, the bot reads messages in the configured channel to detect "done" replies.</li>
+            <li><strong>Operational metadata:</strong> timestamps, command usage, error/health telemetry, and anti-abuse/rate-limit data.</li>
+        </ul>
+
+        <h3>2.3 Data We Do Not Intentionally Collect</h3>
+        <ul>
+            <li>Passwords or external login credentials.</li>
+            <li>Payment card or banking data.</li>
+            <li>Message content outside bot-relevant contexts, except where required by Discord interactions or explicitly configured channel monitoring.</li>
+        </ul>
+
+        <h2>3. Why We Use Data</h2>
+        <p>We process data to:</p>
+        <ul>
+            <li>Operate bot commands and features, including both prefix and slash commands.</li>
+            <li>Track vouches, profiles, and leaderboards.</li>
+            <li>Publish and manage marketplace listings, including cross-server syndication.</li>
+            <li>Detect likely trade posts in configured trade channels.</li>
+            <li>Run scam-reporting, blacklist, and appeal workflows.</li>
+            <li>Prevent abuse, enforce cooldowns/rate limits, and maintain service reliability.</li>
+            <li>Manage game lobbies with code sharing and participant tracking.</li>
+            <li>Send hourly operational reports to staff for abuse detection.</li>
+        </ul>
+
+        <h2>4. Third-Party Processing</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Why Used</th>
+                    <th>Data Categories Shared</th>
+                    <th>Policy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Discord</strong></td>
+                    <td>Bot platform and APIs</td>
+                    <td>Identifiers, interactions, server context, relevant message content (for prefix command processing, trade scanning, lobby code detection, and promotion-reminder completion)</td>
+                    <td><a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">discord.com/privacy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>MongoDB Atlas</strong></td>
+                    <td>Primary persistent datastore</td>
+                    <td>All bot data: guild configs, marketplace listings, vouches, blacklists, lobbies, builds, appeals, trade stats, notifications, feed message logs, command logs (24h TTL), vouch cooldowns, and scam/subscription records</td>
+                    <td><a href="https://www.mongodb.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">mongodb.com/privacy-policy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Groq</strong></td>
+                    <td>Trade-intent parsing in configured trade channels</td>
+                    <td>Configured trade-channel message content</td>
+                    <td><a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer">groq.com/privacy-policy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Tenor/Google</strong></td>
+                    <td>GIF lookup for specific commands</td>
+                    <td>Search terms sent by command usage</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Discord Webhooks</strong></td>
+                    <td>Cross-server marketplace feed</td>
+                    <td>Listing data (Discord user ID, username, item names, notes) sent to all servers subscribed to the global marketplace feed</td>
+                    <td><a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">discord.com/privacy</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="callout-box">
+            <h4>Important Notice</h4>
+            <p>If you post in channels configured for Mist-Connect scanning, or are in a server with the global marketplace feed enabled, your relevant data is processed by third-party services as described above.</p>
         </div>
-    </nav>
 
-    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row gap-12 w-full">
+        <h2>5. Sharing Rules</h2>
+        <p>We do not sell personal data.</p>
+        <p>We share data only when needed to run MistBot, including:</p>
+        <ul>
+            <li>With service providers listed in this policy to operate bot features.</li>
+            <li>Across MistBot-enabled servers where a feature is intentionally global (for example, global marketplace feed and global blacklist enforcement). This means a listing you post or a blacklist action taken against you applies to all servers using the bot.</li>
+            <li>When required by law or legal process.</li>
+            <li>When a user explicitly directs sharing through a bot feature.</li>
+        </ul>
 
-        <aside class="hidden md:block w-64 shrink-0 relative">
-            <div class="sticky top-28 space-y-1 pr-4 border-r border-slate-800">
-                <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4">Contents</h3>
-                <a href="#scope" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">1. Scope</a>
-                <a href="#data-we-process" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">2. Data We Process</a>
-                <a href="#why-we-use" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">3. Why We Use Data</a>
-                <a href="#third-party" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">4. Third-Party Processing</a>
-                <a href="#sharing-rules" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">5. Sharing Rules</a>
-                <a href="#storage-security" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">6. Storage and Security</a>
-                <a href="#retention" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">7. Retention</a>
-                <a href="#rights" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">8. Access, Correction, Deletion</a>
-                <a href="#discord-alignment" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">9. Discord Terms Alignment</a>
-                <a href="#children" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">10. Children&#39;s Privacy</a>
-                <a href="#changes" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">11. Policy Changes</a>
-                <a href="#contact" class="block py-2 text-sm text-slate-400 hover:text-brand-400 transition-colors">12. Contact</a>
-            </div>
-        </aside>
+        <h2>6. Storage and Security</h2>
+        <ul>
+            <li><strong>Primary datastore:</strong> MongoDB Atlas. All persistent bot data (guild configs, marketplace listings, vouches, blacklists, lobbies, builds, appeals, trade stats, notifications, and command logs) is stored in a MongoDB Atlas cluster secured with authentication and network access controls.</li>
+            <li><strong>In-memory caches:</strong> command rate-limit tracking, recent-command spam detection, listing cooldowns, guild configuration, and item value lookups are held temporarily in memory and reset on bot restart or cache expiry (typically minutes to 24 hours depending on the cache).</li>
+            <li><strong>Local log files:</strong> command usage logs are written to <code>logs/commands.jsonl</code> on the bot's server, rotated at 500KB with up to 6 backup files retained for operational monitoring.</li>
+            <li><strong>Google Sheets:</strong> used only for item value reference data (read-only; no user PII is stored in Google Sheets).</li>
+            <li>Access to all systems is restricted to maintainers and authorized services.</li>
+            <li>We use reasonable technical and organizational measures to reduce unauthorized access risk.</li>
+        </ul>
+        <p><em>Note: No system can guarantee absolute security.</em></p>
 
-        <article class="prose prose-invert max-w-3xl w-full">
-            <header class="mb-10 pb-10 border-b border-slate-800">
-                <h1 class="text-4xl font-bold tracking-tight text-white mb-4">Privacy Policy</h1>
-                <p class="text-sm text-slate-400"><strong>Last Updated:</strong> April 3, 2026</p>
-            </header>
+        <h2>7. Retention</h2>
+        <p>Retention depends on feature purpose:</p>
+        <ul>
+            <li><strong>Marketplace listings:</strong> generally expire automatically after 6 hours; ghost/verification trade drafts expire after approximately 24 hours.</li>
+            <li><strong>Lobbies:</strong> removed after closure/timeout.</li>
+            <li><strong>Command logs (MongoDB):</strong> automatically deleted after 24 hours (TTL index).</li>
+            <li><strong>Command logs (JSON files):</strong> rotated when the active file reaches 500KB; up to 6 backup files are retained (automatically deleted after maximum of 30 days).</li>
+            <li><strong>In-memory caches:</strong> rate-limit tracking data is held for the duration of the rate-limit window.</li>
+            <li><strong>Vouches, blacklist, appeals, and moderation records:</strong> retained until removed, reset, overturned, or no longer needed for the stated purpose. Vouch records are maintained as long as the user is an active participant in the community to ensure leaderboard integrity, but can be wiped upon a valid deletion request.</li>
+            <li><strong>Operational logs/caches:</strong> short-lived where possible; some system records may persist for reliability or abuse prevention.</li>
+        </ul>
+        <p>We delete or update data when it is no longer necessary for stated functionality, when legally required, or when a valid user request applies.</p>
 
-            <section id="scope" class="scroll-mt-28">
-                <h2>1. Scope</h2>
-                <p>This Privacy Policy applies to MistBot&#39;s Discord bot features only.</p>
-                <p>MistBot is a community tool for <em>Attack on Titan: Revolution</em> players. This policy explains what data MistBot processes through Discord, how it is used, when it is shared, and how you can request access, correction, or deletion.</p>
-            </section>
+        <h2>8. Access, Correction, and Deletion Requests</h2>
+        <p>You can request to access, correct, or delete your MistBot-related data.</p>
+        <p><strong>How to request:</strong></p>
+        <ul>
+            <li>Open a ticket in the support server.</li>
+            <li>Include your Discord user ID and the request type: access, correction, or deletion.</li>
+        </ul>
+        <p>We provide an accessible request path and will handle valid requests within a reasonable timeframe, subject to legal and safety obligations.</p>
+        <p>Feature-specific controls may also be available in bot commands (for example, deleting listings via <code>/listings</code> or submitting blacklist appeals via <code>,appeal</code>).</p>
 
-            <section id="data-we-process" class="scroll-mt-28 mt-12">
-                <h2>2. Data We Process</h2>
-                
-                <h3>2.1 Data You Provide Through Commands or Messages</h3>
-                <ul>
-                    <li><strong>Vouch data:</strong> vouch submissions, carrier identity, vouch type, totals, and related metadata.</li>
-                    <li><strong>Marketplace data:</strong> listing text (giving/looking for), optional notes, your Discord user ID, and listing status.</li>
-                    <li><strong>Safety data:</strong> scam reports, blacklist appeals, descriptions, and evidence attachments you submit.</li>
-                    <li><strong>Lobby data:</strong> lobby settings, participant lists, host information, and temporary private server details if you post them.</li>
-                    <li><strong>AI prompts:</strong> questions you send to MistBot AI features.</li>
-                </ul>
+        <h2>9. Discord Developer Terms Alignment</h2>
+        <p>This policy is intended to align with Discord Developer Terms requirements for privacy and security, including:</p>
+        <ul>
+            <li>Clear disclosure of collection, use, sharing, and retention.</li>
+            <li>Public availability of a privacy policy.</li>
+            <li>A user-accessible method to request data modification/deletion.</li>
+            <li>Limiting third-party sharing to service providers, legal requirements, or user-directed actions.</li>
+        </ul>
+        <p>If Discord requests data update/deletion related to API data, we will comply as required by applicable terms and law.</p>
 
-                <h3>2.2 Data From Discord APIs or Bot Events</h3>
-                <ul>
-                    <li><strong>Account identifiers:</strong> Discord user ID, username/display name, and avatar URL.</li>
-                    <li><strong>Server context:</strong> guild/server IDs, channel IDs, role IDs, and configuration needed for per-server behavior.</li>
-                    <li><strong>Message content in configured trade channels:</strong> Mist-Connect scans trade-channel messages to detect trade intent.</li>
-                    <li><strong>Operational metadata:</strong> timestamps, command usage, error/health telemetry, and anti-abuse/rate-limit data.</li>
-                </ul>
+        <h2>10. Children's Privacy</h2>
+        <p>MistBot is intended only for users who meet Discord's minimum age and legal requirements in their region. We do not knowingly collect personal data from children under the applicable minimum age.</p>
 
-                <h3>2.3 Data We Do Not Intentionally Collect</h3>
-                <ul>
-                    <li>Passwords or external login credentials.</li>
-                    <li>Payment card or banking data.</li>
-                    <li>Message content outside bot-relevant contexts, except where required by Discord interactions or explicitly configured channel monitoring.</li>
-                </ul>
-            </section>
+        <h2>11. Policy Changes</h2>
+        <p>We may update this policy as features or legal requirements change. Material changes will be communicated through official MistBot channels, and the date at the top will be updated.</p>
 
-            <section id="why-we-use" class="scroll-mt-28 mt-12">
-                <h2>3. Why We Use Data</h2>
-                <p>We process data to:</p>
-                <ul>
-                    <li>Operate bot commands and features.</li>
-                    <li>Track vouches, profiles, and leaderboards.</li>
-                    <li>Publish and manage marketplace listings.</li>
-                    <li>Detect likely trade posts in configured trade channels.</li>
-                    <li>Run scam-reporting, blacklist, and appeal workflows.</li>
-                    <li>Prevent abuse, enforce cooldowns/rate limits, and maintain service reliability.</li>
-                </ul>
-            </section>
-
-            <section id="third-party" class="scroll-mt-28 mt-12">
-                <h2>4. Third-Party Processing</h2>
-                <p>To operate MistBot features, some data is processed by trusted providers:</p>
-
-                <div class="overflow-x-auto my-8">
-                    <table class="w-full text-left border-collapse">
-                        <thead>
-                            <tr class="bg-slate-800/50">
-                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Service</th>
-                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Why Used</th>
-                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Data Categories Shared</th>
-                                <th class="p-4 border-b border-slate-700 font-semibold text-white">Policy</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-sm">
-                            <tr class="border-b border-slate-800/50">
-                                <td class="p-4 font-medium text-slate-300">Discord</td>
-                                <td class="p-4 text-slate-400">Bot platform and APIs</td>
-                                <td class="p-4 text-slate-400">Identifiers, interactions, server context, relevant message content</td>
-                                <td class="p-4 text-slate-400"><a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">discord.com/privacy</a></td>
-                            </tr>
-                            <tr class="border-b border-slate-800/50 bg-slate-800/20">
-                                <td class="p-4 font-medium text-slate-300">Google Sheets</td>
-                                <td class="p-4 text-slate-400">Primary datastore</td>
-                                <td class="p-4 text-slate-400">Structured bot data (vouches, listings, blacklist, appeals, configs, logs)</td>
-                                <td class="p-4 text-slate-400"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a></td>
-                            </tr>
-                            <tr class="border-b border-slate-800/50 bg-slate-800/10">
-                                <td class="p-4 font-medium text-slate-300">Groq</td>
-                                <td class="p-4 text-slate-400">AI generation and trade-intent parsing</td>
-                                <td class="p-4 text-slate-400">AI prompts and configured trade-channel message content</td>
-                                <td class="p-4 text-slate-400"><a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer">groq.com/privacy-policy</a></td>
-                            </tr>
-                            <tr class="border-b border-slate-800/50 bg-slate-800/20">
-                                <td class="p-4 font-medium text-slate-300">Pinecone</td>
-                                <td class="p-4 text-slate-400">Retrieval for knowledge responses</td>
-                                <td class="p-4 text-slate-400">Embedded AI queries and matched knowledge context</td>
-                                <td class="p-4 text-slate-400"><a href="https://www.pinecone.io/privacy/" target="_blank" rel="noopener noreferrer">pinecone.io/privacy</a></td>
-                            </tr>
-                            <tr class="border-b border-slate-800/50">
-                                <td class="p-4 font-medium text-slate-300">Tenor/Google</td>
-                                <td class="p-4 text-slate-400">GIF lookup for specific commands</td>
-                                <td class="p-4 text-slate-400">Search terms sent by command usage</td>
-                                <td class="p-4 text-slate-400"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="bg-brand-950/30 border border-brand-900 rounded-lg p-5 mt-6">
-                    <p class="text-brand-100 text-sm m-0">
-                        <strong>Important:</strong> If you use AI commands or post in channels configured for Mist-Connect scanning, your message content is processed by third-party AI services.
-                    </p>
-                </div>
-            </section>
-
-            <section id="sharing-rules" class="scroll-mt-28 mt-12">
-                <h2>5. Sharing Rules</h2>
-                <p>We do not sell personal data.</p>
-                <p>We share data only when needed to run MistBot, including:</p>
-                <ul>
-                    <li>With service providers listed in this policy to operate bot features.</li>
-                    <li>Across MistBot-enabled servers where a feature is intentionally global (for example, global marketplace feed and global blacklist enforcement).</li>
-                    <li>When required by law or legal process.</li>
-                    <li>When a user explicitly directs sharing through a bot feature.</li>
-                </ul>
-            </section>
-
-            <section id="storage-security" class="scroll-mt-28 mt-12">
-                <h2>6. Storage and Security</h2>
-                <ul>
-                    <li>Bot data is primarily stored in Google Sheets secured with service-account based access.</li>
-                    <li>Some configuration/state data is stored in bot-controlled files and in-memory caches.</li>
-                    <li>Access is restricted to maintainers and authorized systems/services.</li>
-                    <li>We use reasonable technical and organizational measures to reduce unauthorized access risk.</li>
-                </ul>
-                <p>No system can guarantee absolute security.</p>
-            </section>
-
-            <section id="retention" class="scroll-mt-28 mt-12">
-                <h2>7. Retention</h2>
-                <p>Retention depends on feature purpose:</p>
-                <ul>
-                    <li><strong>Marketplace listings:</strong> generally expire automatically after inactivity (for standard listings, about 6 hours).</li>
-                    <li><strong>Ghost/verification trade drafts:</strong> short-lived and expire automatically (for example, around 24 hours where enabled).</li>
-                    <li><strong>Lobbies:</strong> removed after closure/timeout.</li>
-                    <li><strong>AI prompts:</strong> processed for response generation; not intentionally kept as a permanent user profile dataset by MistBot.</li>
-                    <li><strong>Vouches, blacklist, appeals, and moderation records:</strong> retained until removed/reset/overturned or no longer needed for the stated purpose.Vouch records are maintained as long as the user is an active participant in the community to ensure leaderboard integrity, but can be wiped upon a valid deletion request.</li>
-                    <li><strong>Operational logs/caches:</strong> short-lived where possible; some system records may persist for reliability or abuse prevention.</li>
-                </ul>
-                <p>We delete or update data when it is no longer necessary for stated functionality, when legally required, or when a valid user request applies.</p>
-            </section>
-
-            <section id="rights" class="scroll-mt-28 mt-12">
-                <h2>8. Access, Correction, and Deletion Requests</h2>
-                <p>You can request to access, correct, or delete your MistBot-related data.</p>
-                <p>How to request:</p>
-                <ul>
-                    <li>Open a ticket in the support server.</li>
-                    <li>Include your Discord user ID and the request type: access, correction, or deletion.</li>
-                </ul>
-                <p>We provide an accessible request path and will handle valid requests within a reasonable timeframe, subject to legal and safety obligations.</p>
-                <p>Feature-specific controls may also be available in bot commands (for example, deleting listings or submitting blacklist appeals).</p>
-            </section>
-
-            <section id="discord-alignment" class="scroll-mt-28 mt-12">
-                <h2>9. Discord Developer Terms Alignment</h2>
-                <p>This policy is intended to align with Discord Developer Terms requirements for privacy and security, including:</p>
-                <ul>
-                    <li>Clear disclosure of collection, use, sharing, and retention.</li>
-                    <li>Public availability of a privacy policy.</li>
-                    <li>A user-accessible method to request data modification/deletion.</li>
-                    <li>Limiting third-party sharing to service providers, legal requirements, or user-directed actions.</li>
-                </ul>
-                <p>If Discord requests data update/deletion related to API data, we will comply as required by applicable terms and law.</p>
-            </section>
-
-            <section id="children" class="scroll-mt-28 mt-12">
-                <h2>10. Children&#39;s Privacy</h2>
-                <p>MistBot is intended only for users who meet Discord&#39;s minimum age and legal requirements in their region. We do not knowingly collect personal data from children under the applicable minimum age.</p>
-            </section>
-
-            <section id="changes" class="scroll-mt-28 mt-12">
-                <h2>11. Policy Changes</h2>
-                <p>We may update this policy as features or legal requirements change. Material changes will be communicated through official MistBot channels, and the date at the top will be updated.</p>
-            </section>
-
-            <section id="contact" class="scroll-mt-28 mt-12">
-                <h2>12. Contact</h2>
-                <p>For privacy requests or questions:</p>
-                <ul>
-                    <li><strong>Support Server:</strong> <a href="https://discord.com/invite/tgzEMgBbYW" target="_blank" rel="noopener noreferrer">https://discord.com/invite/tgzEMgBbYW</a></li>
-                    <li><strong>Developers:</strong> Open a support ticket in the support server</li>
-                </ul>
-            </section>
-
-        </article>
+        <h2>12. Contact</h2>
+        <p>For privacy requests or questions:</p>
+        <ul>
+            <li><strong>Support Server:</strong> <a href="https://discord.com/invite/tgzEMgBbYW" target="_blank" rel="noopener noreferrer">discord.com/invite/tgzEMgBbYW</a></li>
+            <li><strong>Developers:</strong> Open a support ticket in the support server.</li>
+        </ul>
     </main>
 
-
-    <footer class="bg-slate-900 border-t border-slate-800 py-8 mt-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
-            <div class="flex items-center gap-2 mb-4 md:mb-0">
-                <span class="text-slate-400 text-sm">© 2026 Mistbot. All rights reserved.</span>
-            </div>
-            <div class="flex space-x-6">
-                <a href="#" class="text-slate-500 hover:text-slate-300 text-sm transition-colors">Terms of Service</a>
-                <a href="https://discord.gg/tgzEMgBbYW" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-slate-300 text-sm transition-colors">Support</a>
-            </div>
-        </div>
-    </footer>
+    <div class="footer-note">
+        &copy; 2026 MistBot Team. All rights reserved. This document is intended for informational and compliance purposes under Discord Developer policies.
+    </div>
+</div>
 
 </body>
 </html>
